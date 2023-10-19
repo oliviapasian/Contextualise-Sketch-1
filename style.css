@@ -113,3 +113,23 @@ body {
     0%{margin-top: 0px;}
     100%{margin-top: 20px;}
     }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: lavenderblush; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: skyblue; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: tomato; 
+}
